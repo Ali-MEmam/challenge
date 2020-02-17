@@ -1,0 +1,272 @@
+/*  */
+* {
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+html {
+    background-color: #ffffff;
+    color:hsl(192, 100%, 9%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.clearfix{zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear:both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* Heading */
+h1, h2, h3
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/*-----REUSABLE COMPONENTS-----*/
+section{
+    padding: 40px 40px;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+.box{
+    padding: 1%
+}
+/*buttons*/
+a{
+    text-decoration: none;
+
+}
+a:visited, a:link
+{
+    text-decoration: none;
+    color:#555;
+}
+a:active, a:hover
+{
+    text-decoration: none;
+    color: #555;
+}
+/*---- Header ----*/
+header{
+    background-image: linear-gradient(hsla(193, 100%, 96%, 0.78)0%,hsla(192, 100%, 9%, 0)100%),url(../img/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding:40px 60px;
+    box-shadow: 0px 2px 3px 0px #0000000d;
+    margin-bottom: 80px;
+
+}
+.header .row
+{
+    max-width: none;
+    margin-top: 60px;
+
+}
+.header .hero-text
+{
+    margin-top: 80px;
+}
+.header h1
+{
+    font-size: 200%;
+}
+.Top{
+}
+.Logo{
+    float: left;
+}
+.Logo .logo
+{
+    height: 25px;
+}
+.try-it
+{
+    float: right;
+}
+.try-it .btn-try
+{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 0px #00000047;
+    border: none;
+
+    border-radius: 30px;
+    padding: 10px 35px;
+    font-size: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+.Hero-flat
+{
+    width:100%;
+    text-align: right;
+}
+.Hero-flat img
+{
+    width: 90%
+}
+.header .long-text
+{
+    font-size: 90%;
+    margin: 30px 0;
+    line-height: 145%;
+    font-weight: 400;
+}
+.get-start
+{
+    margin-top: 50px;
+}
+.get-start .btn-start
+{
+    background-color: hsl(322, 100%, 66%);
+    padding:10px 40px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 70%;
+    box-shadow: 0px 0px 5px 0px #00000047;
+}
+/* Grow Together */
+.border-section
+{
+
+}
+.border-section .row
+{
+    box-shadow: 0px 0px 5px 0px #0000001f;
+    border-radius: 20px;
+
+}
+.border-section .together-flat
+{
+
+}
+.border-section .border-text
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 459px;
+}
+.border-section h3
+{
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    margin-left: 15%;
+
+}
+.border-section p
+{
+    font-size: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 145%
+}
+.border-section .border-flat img
+{
+    width:100%
+}
+/* foooter */
+footer
+{
+ color: #ffffff;
+ position: relative;
+ z-index: -1 ;
+}
+/* ready-to*/
+.ready {
+    padding: 40px 0px 0px;
+}
+.ready-to
+{
+    box-shadow: 0px 0px 5px 0px #00000047;
+    color: #555;
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+    z-index: 1;
+    
+}
+.ready-to h2
+{
+   margin-bottom: 20px;
+}
+.second-logo
+{
+    width: 100%;
+}
+.second-logo img
+{
+    width: 60%;
+    margin-bottom: 40px;
+}
+footer .last-section
+{
+    background-color:  hsl(192, 100%, 9%);
+    padding:80px 0 20px;
+    font-size: 70%;
+}
+footer .last-section li
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 145%;
+}
+footer .last-section li span
+{
+}
+ul
+{
+    list-style: none;
+}
+.map
+{
+    margin-top: 100px;
+    text-align: center;
+}
+.media
+{
+    margin-top: 100px;
+    text-align: center;
+}
+.media ul li
+{
+    display: inline;
+    margin-right: 10px;
+}
+.info-icon, .info-data
+{
+    display: inline-block;
+}
+.info-icon
+{
+    margin-right: 10px;
+    vertical-align:top;
+}
+.info-data
+{
+    width: 80%;
+}
+.fa {
+    color: #ffffff;
+    font-size: 150%
+}
+.copy-right
+{
+    float: right;
+    margin-right: 30px;
+    font-size: 60%
+}
